@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+#question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.figures {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.figure {
+    width: 100px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.figure:hover {
+    transform: scale(1.1);
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #007BFF;
+}
